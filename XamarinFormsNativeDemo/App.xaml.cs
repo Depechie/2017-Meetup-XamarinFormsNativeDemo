@@ -8,7 +8,7 @@ namespace XamarinFormsNativeDemo
         {
             InitializeComponent();
 
-            MainPage = new XamarinFormsNativeDemoPage();
+            MainPage = new NavigationPage(new XamarinFormsNativeDemoPage());
         }
 
         protected override void OnStart()

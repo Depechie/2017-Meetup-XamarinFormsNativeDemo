@@ -1,4 +1,5 @@
 ﻿using Xamarin.Forms;
+using XamarinFormsNativeDemo.Views;
 
 namespace XamarinFormsNativeDemo
 {
@@ -7,6 +8,16 @@ namespace XamarinFormsNativeDemo
         public XamarinFormsNativeDemoPage()
         {
             InitializeComponent();
+        }
+
+        private async void OnCustomRendererClicked(object sender, System.EventArgs e)
+        {
+            await Navigation.PushAsync(new CustomRendererPage());
+        }
+
+        private async void OnEffectClicked(object sender, System.EventArgs e)
+        {
+            await Navigation.PushAsync(new EffectPage());
         }
     }
 }
