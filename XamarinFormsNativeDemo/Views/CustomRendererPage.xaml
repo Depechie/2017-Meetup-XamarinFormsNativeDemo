@@ -4,5 +4,8 @@
 		x:Class="XamarinFormsNativeDemo.Views.CustomRendererPage"
 		Title="Custom renderer demo">
 	<ContentPage.Content>
+		<StackLayout Margin="20">
+			<Entry Placeholder="Enter movie name..." />
+		</StackLayout>
 	</ContentPage.Content>
 </ContentPage>
