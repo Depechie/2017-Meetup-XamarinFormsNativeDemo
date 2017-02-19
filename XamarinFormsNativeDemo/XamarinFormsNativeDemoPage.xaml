@@ -5,6 +5,7 @@
 		x:Class="XamarinFormsNativeDemo.XamarinFormsNativeDemoPage"
 		Title="Platform code in forms demo">
 	<StackLayout>
+		<Button Text="Build in control" Clicked="OnBuildInClicked" />
 		<Button Text="Custom renderer" Clicked="OnCustomRendererClicked" />
 		<Button Text="Effect" Clicked="OnEffectClicked" />
 	</StackLayout>

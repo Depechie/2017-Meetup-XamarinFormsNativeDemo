@@ -2,7 +2,15 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
 		xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
 		x:Class="XamarinFormsNativeDemo.Views.EffectPage"
+		xmlns:effects="clr-namespace:XamarinFormsNativeDemo.Effects"
 		Title="Effect demo">
 	<ContentPage.Content>
+		<StackLayout Margin="20">
+			<Entry Placeholder="Enter movie name...">
+				<Entry.Effects>
+					<effects:ClearEntryEffect />
+				</Entry.Effects>
+			</Entry>
+		</StackLayout>
 	</ContentPage.Content>
 </ContentPage>

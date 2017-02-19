@@ -10,6 +10,11 @@ namespace XamarinFormsNativeDemo
             InitializeComponent();
         }
 
+        private async void OnBuildInClicked(object sender, System.EventArgs e)
+        {
+            await Navigation.PushAsync(new BuildInPage());
+        }
+
         private async void OnCustomRendererClicked(object sender, System.EventArgs e)
         {
             await Navigation.PushAsync(new CustomRendererPage());
