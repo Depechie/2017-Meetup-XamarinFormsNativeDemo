@@ -24,5 +24,10 @@ namespace XamarinFormsNativeDemo
         {
             await Navigation.PushAsync(new EffectPage());
         }
+
+        private async void OnPlatformSpecificsClicked(object sender, System.EventArgs e)
+        {
+            await Navigation.PushAsync(new PlatformSpecificsPage());
+        }
     }
 }

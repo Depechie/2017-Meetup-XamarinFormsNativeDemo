@@ -11,7 +11,7 @@ namespace XamarinFormsNativeDemo.iOS.Renderers
         {
             base.OnElementChanged(e);
 
-            if(Control != null)
+            //if(Control != null)
                 //Control.ClearButtonMode = UIKit.UITextFieldViewMode.WhileEditing;
         }
     }
