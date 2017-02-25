@@ -42,6 +42,9 @@
     <EmbeddedResource Include="Views\PlatformSpecificsPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
+    <EmbeddedResource Include="Views\NativePage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App.xaml.cs">
@@ -66,6 +69,9 @@
       <DependentUpon>PlatformSpecificsPage.xaml</DependentUpon>
     </Compile>
     <Compile Include="PlatformSpecifics\ClearEntryPlatformSpecific.cs" />
+    <Compile Include="Views\NativePage.xaml.cs">
+      <DependentUpon>NativePage.xaml</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Reference Include="Xamarin.Forms.Core">

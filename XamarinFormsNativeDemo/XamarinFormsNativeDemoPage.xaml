@@ -9,5 +9,6 @@
 		<Button Text="Custom renderer" Clicked="OnCustomRendererClicked" />
 		<Button Text="Effect" Clicked="OnEffectClicked" />
 		<Button Text="Platform specifics" Clicked="OnPlatformSpecificsClicked" />
+		<Button Text="Native views" Clicked="OnNativeViewsClicked" />
 	</StackLayout>
 </ContentPage>

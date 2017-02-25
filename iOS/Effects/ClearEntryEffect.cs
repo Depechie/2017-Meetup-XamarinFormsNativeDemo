@@ -3,7 +3,7 @@ using Xamarin.Forms.Platform.iOS;
 using UIKit;
 using XamarinFormsNativeDemo.PlatformSpecifics.iOS;
 
-[assembly: ExportEffect(typeof(XamarinFormsNativeDemo.iOS.Effects.ClearEntryEffect), "ClearEntryEffect")]
+//[assembly: ExportEffect(typeof(XamarinFormsNativeDemo.iOS.Effects.ClearEntryEffect), "ClearEntryEffect")]
 namespace XamarinFormsNativeDemo.iOS.Effects
 {
     /*
